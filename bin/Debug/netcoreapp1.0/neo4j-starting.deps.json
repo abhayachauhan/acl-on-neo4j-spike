@@ -1,0 +1,81 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.0",
+    "signature": "35c91a016928afc7c05fce500dc1618bbc4ad9b6"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "neo4j-starting/1.0.0": {
+        "runtime": {
+          "neo4j-starting.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Portable.Compatibility/1.0.1": {
+        "runtime": {
+          "lib/netstandard1.0/System.ComponentModel.DataAnnotations.dll": {},
+          "lib/netstandard1.0/System.Core.dll": {},
+          "lib/netstandard1.0/System.Net.dll": {},
+          "lib/netstandard1.0/System.Numerics.dll": {},
+          "lib/netstandard1.0/System.Runtime.Serialization.dll": {},
+          "lib/netstandard1.0/System.ServiceModel.Web.dll": {},
+          "lib/netstandard1.0/System.ServiceModel.dll": {},
+          "lib/netstandard1.0/System.Windows.dll": {},
+          "lib/netstandard1.0/System.Xml.Linq.dll": {},
+          "lib/netstandard1.0/System.Xml.Serialization.dll": {},
+          "lib/netstandard1.0/System.Xml.dll": {},
+          "lib/netstandard1.0/System.dll": {}
+        }
+      },
+      "Neo4j.Driver/1.1.0-rc1": {
+        "dependencies": {
+          "Microsoft.NETCore.Portable.Compatibility": "1.0.1",
+          "System.Runtime.Serialization.Primitives": "4.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Neo4j.Driver.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.2-beta1": {
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.1.1": {
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "neo4j-starting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Portable.Compatibility/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vd+lvLcGwvkedxtKn0U8s9uR4p0Lm+0U2QvDsLaw7g4S1W4KfPDbaW+ROhhLCSOx/gMYC72/b+z+o4fqS/oxVg=="
+    },
+    "Neo4j.Driver/1.1.0-rc1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zQ14428RkcYQNfUUVLrHFocmJQLTd+SssV463geUylEZRhbbMjJadIZxobJiWx6xA75A2MvQ/8STXWXhh4vMKg=="
+    },
+    "Newtonsoft.Json/9.0.2-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bq5DjCtCJpy9R5rsEeQlKz8qGF1Bh3wGaJKMlRwmCoKZ8WUCIFtU3JlyMOdAkSn66KCehCCAxMZFOQD4nNnH/w=="
+    },
+    "System.Runtime.Serialization.Primitives/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg=="
+    }
+  }
+}

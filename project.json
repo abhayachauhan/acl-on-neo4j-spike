@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": true
+  },
+  "dependencies": {
+    "Neo4j.Driver": {
+      "type": "build",
+      "version": "1.1.0-rc1"
+    },
+    "Newtonsoft.Json": {
+      "type": "build",
+      "version": "9.0.2-beta1"
+    }
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        }
+      },
+      "imports": "dnxcore50"
+    }
+  }
+}
